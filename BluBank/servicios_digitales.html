@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style type="text/css">
 		body {
 			background-color: #E6E7E8
@@ -93,13 +94,75 @@
 			color: #1B75BC;
 		}
 
-.topnav {
+		.topnav {
 			position: relative;
 			overflow: hidden;
 			background-color: #2E3192;
 
 			text-align: center;
 			float: center;
+		}
+		.footer {
+			position: bottom;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: #2E3192;
+			text-align: center;
+		}
+		.footer_inner_left{
+			width: 49%;
+			Float: left;
+			display:inline;
+			text-align: center;
+		}
+
+
+
+		.footer_inner_right{
+			width: 49%;
+			Float: right;
+			display:inline;
+			text-align: center;
+		}
+
+		.fa {
+			padding: 10px;
+			font-size: 20px;
+			width: 50px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+		}
+
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+			color: white;
+		}
+
+		.fa-twitter {
+			background: #55ACEE;
+			color: white;
+		}
+
+		.fa-linkedin {
+			background: #007bb5;
+			color: white;
+		}
+
+		.fa-youtube {
+			background: #bb0000;
+			color: white;
+		}
+
+		.fa-instagram {
+			background: #125688;
+			color: white;
 		}
 
 	</style>
@@ -109,22 +172,22 @@
 <body>
 	<div class="topnav" id="myTopnav">
 		<a href="index.html" class="active">BluBank</a>
-		<a href="#home" >Banca Personal</a>
-		<a href="#home" >Banca Coorporativa</a>
-		<a href="#home" >Pymes</a>
-		<a href="#home" >Portafolio Blu</a>
-		<a href="#home" >Acerca de BluBank</a>
+		<a href="personal.html" >Banca Personal</a>
+		<a href="corporativa.html" >Banca Coorporativa</a>
+		<a href="pymes.html" >Pymes</a>
+		<a href="porfafolio.html">Portafolio Blu</a>
+		<a href="acerca.html" >Acerca de BluBank</a>
 	</div>
 
 	<img style="width:100%;height:100%;" class="img-fluid" src="images/blubank-logo.jpeg" alt="logo">
 
-	
+
 	<div class="navbar-light" id="midbar">
 		<a href="sucursales.html" >Sucursales</a>
-		<a href="#home" >Noticias y Novedades</a>
-		<a href="#home" >Cajeros & Puntos de Pago</a>
-		<a href="#home" >Comunicados</a>
-		<a href="servicios_digitales.html" >Servicios Digitales </a>
+		<a href="noticias.html" >Noticias y Novedades</a>
+		<a href="cajeros.html" >Cajeros & Puntos de Pago</a>
+		<a href="comunicados.html" >Comunicados</a>
+		<a href="servicios_digitales.html" >Servicios Digitales</a>
 		<div class="search-container">
 			<form action="/action_page.php">
 				<input type="text" placeholder="Search.." name="search">
@@ -134,55 +197,76 @@
 
 	</div>
 
-    <br>
+	<br>
 
-<left>	 
 
-<div class="container">
-  	<div class="row">
-    <div class="col-sm-4" style="background-color:#CECECE;">
-      
-      	<img src="images/servicios_digitales_en_linea.jpg" alt="San José" width="100%" height="100%">
-      	<h3>Blu en Línea</h3>
-      	<p>Mediante nuestro servicio de banca en Internet usted podrá hacer transferencias internas, aplicación de planillas, compra y venta de divisas, pago de servicios y muchas cosas más.</p>
-      	<button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
-      	<br>
-      	<br>
-    </div>
-    
-    <div class="col-sm-4">
-      
-    <img src="images/servicios_digitales_cajero.jpg" alt="Heredia" width="100%" height="100%">
-    <h3>Cajeros Automáticos</h3>
-    <p>Nuestra red de ATMs le permite disponer de su dinero las 24 horas del día, todos los días de la semana ya sea para retiros en colones como en dólares.</p>
-    <button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
-      	<br>
-      	<br>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4" style="background-color:#CECECE;">
+
+				<img src="images/servicios_digitales_en_linea.jpg" alt="San José" width="100%" height="100%">
+				<h3>Blu en Línea</h3>
+				<p>Mediante nuestro servicio de banca en Internet usted podrá hacer transferencias internas, aplicación de planillas, compra y venta de divisas, pago de servicios y muchas cosas más.</p>
+				<button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
+				<br>
+				<br>
+			</div>
+
+			<div class="col-sm-4">
+
+				<img src="images/servicios_digitales_cajero.jpg" alt="Heredia" width="100%" height="100%">
+				<h3>Cajeros Automáticos</h3>
+				<p>Nuestra red de ATMs le permite disponer de su dinero las 24 horas del día, todos los días de la semana ya sea para retiros en colones como en dólares.</p>
+				<button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
+				<br>
+				<br>
+
+			</div>
+
+			<div class="col-sm-4" style="background-color:#CECECE;">
+
+				<img src="images/servicios_digitales_app.jpg" alt="Blu_App" width="100%" height="100%">
+				<h3>App de Beneficios</h3>
+				<p>Conozca con esta aplicación la ubicación de los cajeros automáticos y sucursales en Costa Rica, El Salvador y Panamá.</p>
+				<button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
+				<br>
+				<br>
+			</div>
+
+
+		</div>
 	</div>
 
-	<div class="col-sm-4" style="background-color:#CECECE;">
-              
-    <img src="images/servicios_digitales_app.jpg" alt="Blu_App" width="100%" height="100%">
-    <h3>App de Beneficios</h3>
-    <p>Conozca con esta aplicación la ubicación de los cajeros automáticos y sucursales en Costa Rica, El Salvador y Panamá.</p>
-    <button type="button" onclick="alert('Página en desarrollo')">Mas Información</button>
-      	<br>
-      	<br>
-</div>
-    
-    <center>
-  </div>
+	<footer>
+		<div class="footer">
+			<div class="footer_inner_left">
+				<h4 style="color: #00AEEF">Nuestro Banco</h4><br>
+				<a href="liderazgo.html" class="footer-link">| Liderazgo | </a>
+				<a href="historia.html" class="footer-link">Nuestra Historia | </a>
+				<a href="contactenos.html" class="footer-link">Contactanos | </a>
+				<a href="mision.html" class="footer-link">Misión y Visión | </a>
+				<a href="trabajo.html" class="footer-link">Trabaje con nosotros | </a>
+			</div>
 
-  <br>
-  <br>
-  <br>
-<center>	
-  <footer>
-  <p>Posted by: Hege Refsnes</p>
-  <p>Contact information: <a href="mailto:someone@example.com">
-  someone@example.com</a>.</p>
-</footer>
+			<div class="footer_inner_right">
+				<h4 style="color: #00AEEF">Búscanos en redes sociales</h4>
+				<!-- Add font awesome icons -->
+				<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+				<a href="https://www.twitter.com" class="fa fa-twitter"></a>
+				<a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+				<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+			</div>
+
+
+			<br>
+			<div style="text-align: center;">
+				<span style="color: #00AEEF" align="center">Todos los derechos reservados | 2019 © BluBank </span>
+
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>
