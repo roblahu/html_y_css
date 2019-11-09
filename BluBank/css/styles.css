@@ -158,6 +158,9 @@ body {
 	background: #125688;
 	color: white;
 }
+h1{
+	color: #1B75BC
+}
 h2{
 	color: #FF5110
 }
@@ -190,3 +193,37 @@ background-color:#CECECE;
 #p01{
 	background-color: #E6E7E8;
 }
+p{
+	color: #00AEEF;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold
+}
+div.historia{
+	text-align: center;
+}
+#ofertas{
+	color: #2E3192;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold
+}
+#trabajo01{
+	background-color: #E48A43;
+}
+#trabajo02{
+	background-color: #D1CE6D;
+}
+#trabajo03{
+	background-color: #E48A43;
+}
+#trabajo04{
+	background-color: #D1CE6D;
+}
+#trabajo05{
+	background-color: #E48A43;
+}
+#trabajo06{
+	background-color: #D1CE6D;
+}
+
